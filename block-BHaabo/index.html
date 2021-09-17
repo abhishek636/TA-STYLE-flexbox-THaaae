@@ -1,8 +1,83 @@
-<!-- 
-- Create a page using flexbox according to the layout shown below.
-
-![Flex Shrink Property](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/flexbox/ex-2.png)
-
-- Using CSS resets is necessary.
-- Use semantic tags and keep the nesting and indentation proper. 
--->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 2/flexbox</title>
+    <link rel="stylesheet" href="./assets/stylesheet/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700&family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <!-- font Awesome -->
+    <script src="https://kit.fontawesome.com/198f66d614.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="container flex align-item">
+            <div class="logo">
+                <img src="./assets/icons/altcampus-logo.svg" alt="logo">
+            </div>
+            <nav class="header-nav">
+                <a href="#" class="verticle-align">
+                    <img src="./assets/icons/bell.svg" alt="bell">
+                </a>  
+                <a href="#">
+                    <span class="verticle-align">Sarah Jone</span>
+                    <img src="./assets/icons/user.svg" alt="user"  class="verticle-align">
+                </a>
+            </nav>
+        </div>
+    </header>
+    <div class="container flex margin">
+        <aside>
+            <nav class="navbar navbar-flex">
+                <a href="#" class="nav">
+                    <img src="./assets/icons/dashboard.svg" alt="dashboard">
+                    <span>Dashboard</span>
+                </a>
+                <a href="#" class="nav">
+                    <img src="./assets/icons/article.svg" alt="article">
+                    <span>Dashboard</span>
+                </a>
+                <a href="#" class="nav">
+                    <img src="./assets/icons/analytics.svg" alt="analytics">
+                    <span>Analytics</span>
+                </a>
+                <a href="#" class="nav">
+                    <img src="./assets/icons/inbox.svg" alt="inbox">
+                    <span>Inbox</span>
+                </a>
+                <a href="#" class="nav">
+                    <img src="./assets/icons/setting.svg" alt="setting">
+                    <span>Setting</span>
+                </a>
+                <div>
+                    <button class="logout-btn margin-btn">
+                        <img src="./assets/icons/log-out.svg" alt="log-out">
+                        <span>Logout</span>
+                    </button>
+                </div>
+            </nav>
+        </aside>
+        <main>
+            <section>
+                <article class="article">
+                    <img src="./assets/01.png" alt="punch today">
+                    <h1 class="article-heading">Why we are doing Altcampus?</h1>
+                    <p>AltCampus offers a 6-month, online programming bootcamp in Dharamshala, India, with a focus on recent college graduates, professionals looking to switch careers, and anyone who needs guidance in to learning to code.</p>
+                    <p> The AltCampus full stack web development program covers HTML, CSS, Core JavaScript, React, Redux, NodeJs, and Databases. Students learn through hands-on problems and projects, pair programming, and one-on-one sessions with mentors.</p>
+                    <a href="#" class="readmore">Read More</a>
+                </article>
+            </section>
+        </main>
+    </div>
+    <footer class="footer">
+        <div class="container flex">
+            <small>&copy; AltCampus</small>
+            <nav>
+                <a href="#"><i class="fab fa-facebook-square"></i></a>
+                <a href="#"><i class="fab fa-twitter-square"></i></a>
+            </nav>
+        </div>
+    </footer>
+</body>
+</html>
