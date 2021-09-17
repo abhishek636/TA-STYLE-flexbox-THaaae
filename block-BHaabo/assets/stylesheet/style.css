@@ -101,8 +101,13 @@ span{
 }
 .nav{
     color: #28314E;
-    padding: 30px 20px;
+    padding: 20px 20px;
     font-size: 20px;
+}
+.article-nav{
+    color: #F18746;
+    border: solid 2px #F18746;
+    border-radius: 10px;
 }
 .logout-btn{
     width: 100%;
@@ -110,7 +115,7 @@ span{
     padding: 10px 0;
     font-size: 18px;
     padding-left:40px ;
-    margin-top: 195px;
+    margin-top: 290px;
     border-radius: 10px;
 }
 
